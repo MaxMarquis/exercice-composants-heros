@@ -1,0 +1,31 @@
+:host {
+  background-color: rgb(213, 166, 189);
+  display: block;
+  border: 1px solid black;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 75%;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.negativeMargins {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+div.page {
+  padding-left: 2rem;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}

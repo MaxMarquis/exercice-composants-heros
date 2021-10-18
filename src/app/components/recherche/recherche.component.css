@@ -1,0 +1,13 @@
+:host {
+  background-color: rgb(255, 255, 0);
+  display: block;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 35%;
+  padding-left: 0.5rem;
+}
+
+.flexbox-item {
+  flex-shrink: 0;
+}
