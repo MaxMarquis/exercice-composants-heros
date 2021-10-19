@@ -6,8 +6,8 @@
     <app-recherche></app-recherche>
     <div class="container">
       <app-carousel></app-carousel>
-      <div class="flexbox-container negativeMargins" *ngFor="let hero of heros">
-        <app-hero [hero]="hero"></app-hero>
+      <div class="flexbox-container hero">
+        <app-hero *ngFor="let hero of heros" [hero]="hero"></app-hero>
       </div>
     </div>
   </div>

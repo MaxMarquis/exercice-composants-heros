@@ -13,10 +13,9 @@
 
 .flexbox-container {
   display: flex;
-  justify-content: space-between;
 }
 
-.negativeMargins {
+.hero {
   margin-left: -1rem;
   margin-right: -1rem;
 }
