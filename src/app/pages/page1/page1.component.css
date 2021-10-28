@@ -11,17 +11,13 @@
   width: 75%;
 }
 
+.flex-hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .flexbox-container {
   display: flex;
-}
-
-.hero {
-  margin-left: -1rem;
-  margin-right: -1rem;
-}
-
-div.page {
-  padding-left: 2rem;
 }
 
 p {
