@@ -6,8 +6,17 @@
     <app-recherche></app-recherche>
     <div class="container">
       <app-carousel></app-carousel>
+      <!-- Hero Debut -->
       <div class="flex-hero">
-        <app-hero *ngFor="let hero of heros" [hero]="hero"></app-hero>
+        <mat-card class="example-card" *ngFor="let hero of heros">
+          <mat-card-title-group>
+            <mat-card-title>{{hero.name}}</mat-card-title>
+          </mat-card-title-group>
+          <mat-card-content>
+            {{hero.description}}
+          </mat-card-content>
+        </mat-card>
+        <!-- Hero Fin -->
       </div>
     </div>
   </div>

@@ -5,3 +5,7 @@
   margin: 10px;
   padding: 10px;
 }
+
+mat-toolbar {
+  background-color: rgb(217, 234, 211);
+}

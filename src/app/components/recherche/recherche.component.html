@@ -1,1 +1,12 @@
-<p>Recherche</p>
+<mat-drawer-container>
+  <mat-drawer #drawer mode="side">
+    <input type="text">
+  </mat-drawer>
+
+  <div>
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Rechercher
+    </button>
+  </div>
+
+</mat-drawer-container>

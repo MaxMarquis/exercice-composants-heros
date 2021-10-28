@@ -7,7 +7,7 @@ import { Hero } from 'src/app/hero';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent implements OnInit {
-  @Input() hero: Hero = { id: 0, name: "" };
+  @Input() hero: Hero = { id: 0, name: "", description: "" };
 
   constructor() { }
 

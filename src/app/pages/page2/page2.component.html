@@ -5,7 +5,12 @@
   <div class="flexbox-container">
     <app-recherche></app-recherche>
     <div class="container">
-      <app-hero *ngFor="let hero of heros" [hero]='hero'></app-hero>
+
+      <mat-list>
+        <mat-list-item *ngFor="let hero of heros">
+          <p>{{hero.name}}</p>
+        </mat-list-item>
+      </mat-list>
     </div>
   </div>
 

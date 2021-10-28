@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { AppComponent } from './app.component';
 import { Page1Component } from './pages/page1/page1.component';
@@ -13,6 +17,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { PiedPageComponent } from './components/pied-page/pied-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeroListComponent } from './hero-list/hero-list.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +28,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     RechercheComponent,
     CarouselComponent,
     HeroComponent,
-    PiedPageComponent
+    PiedPageComponent,
+    HeroListComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatListModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

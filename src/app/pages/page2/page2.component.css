@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 75%;
+  width: 60%;
 }
 
 .flexbox-container {
@@ -17,4 +17,18 @@
 p {
   font-weight: bold;
   font-size: 1.3rem;
+}
+
+mat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+mat-list-item {
+  background-color: rgb(244, 204, 204);
+  display: block;
+  border: 2px solid black;
+  flex-grow: 1;
+  margin: 10px;
+  padding: 10px;
 }
